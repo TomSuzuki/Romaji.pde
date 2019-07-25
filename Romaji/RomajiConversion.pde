@@ -20,7 +20,7 @@ class RomajiConversion {
   }
 
   // 変換データを保存するクラス
-  class RomajiDefinition {
+  private class RomajiDefinition {
 
     // 変数
     private String beforeConversion = "";
@@ -33,12 +33,12 @@ class RomajiConversion {
     }
 
     // 変換前を取得
-    String getBeforeConversion() {
+    private String getBeforeConversion() {
       return beforeConversion;
     }
 
     // 変換後を取得
-    String getAfterConversion() {
+    private String getAfterConversion() {
       return afterConversion;
     }
   }
